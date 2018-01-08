@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/IBM-Swift/Kitura-Credentials.git", .upToNextMinor(from: "2.0.0")),
-        .package(url: "https://github.com/vapor/jwt.git", .upToNextMinor(from: "2.3.0ls "))
+        .package(url: "https://github.com/vapor/jwt.git", .upToNextMinor(from: "2.3.0"))
     ],
     targets: [
         .target(
